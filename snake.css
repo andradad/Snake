@@ -1,0 +1,24 @@
+body{
+  background-color: darkgrey;
+}
+
+.game{
+  display: flex;
+  flex-direction: row;
+}
+.words{
+  bottom:50%;
+}
+.start{
+  flex-direction: column;
+}
+
+#sCanvas{
+  background-image: url(https://unsplash.it/800/500/?image=921);
+  border-style: solid;
+  border-color: #00001a;
+  border-width: 10px;
+
+
+
+}

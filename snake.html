@@ -1,0 +1,30 @@
+<html>
+<head>
+  <link rel="stylesheet"; type="text/css"; href="snake.css">
+</head>
+<body>
+  <div class="game">
+    <div id="screen">
+      <canvas id="sCanvas" width="800" height="500"></canvas>
+    </div>
+    <div id="start">
+      <div>Welcome to the Jungle!</div>
+      <div class="words">Press Start to Begin the Game</div>
+      <button id="btn"> Start </button>
+      <div>Instructions: </div>
+      <div>1. Use the arrow keys to change the snake's direction </div>
+      <div>2. Eat the Eggs to grow </div>
+      <div>3. Do not hit the walls or yourself </div>
+      <div>*If you wish to increase the difficulty, </div>
+      <div>press start again after beginning the game </div>
+      <div> </div>
+      <div>Press the button and enter your name to save your highscore</div>
+      <button id="submitScore">Enter name</button>
+      <div id="displayScores"> </div>
+    </div>
+  </div>
+  <script src="snake.js"></script>
+  <script src="snakeControls.js"></script>
+  <script src="snakeHighscore.js"></script>
+</body>
+</html>
